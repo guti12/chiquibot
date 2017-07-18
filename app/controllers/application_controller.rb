@@ -5,6 +5,6 @@ class ApplicationController < ActionController::Base
 
   def ask_chiquito
     reaction = CHIQUIBOT.get_reaction(params[:query])
-    render json: { response: reaction.present? ? reaction : '¿Comorl?' }
+    render json: { response: reaction.present? ? reaction : 'Yes?' }
   end
 end

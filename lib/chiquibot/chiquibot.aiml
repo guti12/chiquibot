@@ -3,9 +3,51 @@
   <aiml version="1.0">
 
     <category>
-      <pattern>HOLA *</pattern>
+      <pattern>HI *</pattern>
       <template>
-        Buenos días Grijando More, ¿qué quieres?
+        Hey there! Can I interest you in some lemonade?
+      </template>
+    </category>
+
+    <category>
+    <pattern>HELLO</pattern>
+      <template>Mello Yellow! So, what do you say, can I get some for you?</template>
+    </category>
+    
+    <category>
+      <pattern>HI THERE</pattern>
+      <template>I'm ready when you are -- lemonade? Yes?</template>
+    </category>
+
+    <category>
+      <pattern>HOWDY</pattern>
+      <template>Let's giddy up for some sweet lemonade! Whatdya say, partner?</template>
+    </category>
+    
+    <category>
+      <pattern>HOLA</pattern>
+      <template>Quieres lemonado? Yes-o?</template>
+    </category>
+
+    <category>
+      <pattern>SUP *</pattern>
+      <template>
+        <random>
+          <li>Tuition.. and every cup of lemonade counts. I'm selling my way to college. Want some lemonade?</li>
+          <li>I'll tell you what isn't up are my lemonade sales -- can I get some for you?</li>
+          <li>Up is a two-letter word which can be used in the following ways:
+          as an adverb: Their voices could be heard up in our room. 
+          as a preposition: He climbed up the steps. 
+          as an adjective: the up escalator
+          It has probably more meanings but what I think you mean is that you want some lemonade - right?</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HEY *</pattern>
+      <template>
+        Hay is for horses but lemonade is for humans. Do you want some liquid gold?
       </template>
     </category>
 
